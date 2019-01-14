@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+.intro-header {
+  height: unset !important;
+}
+.top-nav-collapse {
+  background: linear-gradient(to right,#494949d9 0, #242424eb, #202020 100%);
+}
+.view {
+  height: 100vh !important;
+}
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: linear-gradient(to right,#494949d9 0, #242424eb, #202020 100%);
+  }
+  }
+
+
+  .intro-2 {
+    background: url("/assets/code.jpg")no-repeat center center;
+    background-size: cover;
+
+}
+
+.rgba-gradient .full-bg-img {
+  background: linear-gradient(45deg, rgba(242, 34, 50, 0.5), rgba(255, 187, 54, 0.6) 100%);
+}
+@media (max-width: 740px) {
+  .full-height,
+  .full-height body,
+  .full-height header,
+  .full-height header .view {
+      height: 700px;
+
+  }
+
+}

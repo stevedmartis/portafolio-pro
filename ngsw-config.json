@@ -1,0 +1,32 @@
+{
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "resources": {
+        "files": [
+          "/favicon.ico",
+          "/index.html",
+          "/*.css",
+          "/*.js"
+        ]
+      }
+    }, {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": [
+          "/assets/**",
+          "/assets/favicon.ico",
+          "/assets/astro1.jpg",
+          "/assets/sky.jpg",
+          "/assets/back1.jpg",
+          "/assets/code.jpg",
+          "/assets/demaro1.jpg"
+        ]
+      }
+    }
+  ]
+}
